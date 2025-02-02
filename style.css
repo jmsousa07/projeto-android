@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: 'Android';
-    src: url('/pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -52,7 +52,7 @@ header > h1{
 
 header > p{
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     max-width: 550px;
     font-size: 1.2em;
     margin: auto;
@@ -97,10 +97,16 @@ main h1,h2{
     font-family: var(--fonte-android);
     font-weight: normal;
     padding: 5px;
+    font-size: 1.9em;
 }
 
 main h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    padding: 5px;
+    font-size: 1.4em;
 }
 
 main p{
@@ -169,6 +175,11 @@ aside > ul{
     list-style-type:'\1F5F8';
     list-style-position: inside;
     columns: 2;
+}
+
+aside li{
+    text-decoration: none;
+    margin: 3px;
 }
 
 footer{
