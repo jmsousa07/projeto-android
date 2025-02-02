@@ -172,7 +172,7 @@ aside > h3{
 }
 
 aside > ul{
-    list-style-type: '\1F5F8\', disc;
+    list-style-type: disc;
     list-style-position: inside;
     columns: 2;
 }
